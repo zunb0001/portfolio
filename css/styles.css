@@ -1,0 +1,113 @@
+/* importing requird google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Fjalla+One&family=Fredoka+One&family=Lilita+One&family=Lobster&family=Merriweather&display=swap');
+
+
+/***************1.Cover page and main html classes *********************/
+html,
+body,
+header,
+.view {
+  height: 100%;
+  background-color: #E0E0E2
+}
+.h2{  /* navbar header name*/
+font-family: 'Lobster', cursive;
+color: #4B3A1D !important;
+}
+.h2-header{    /* Cover main tittle*/
+  font-family: 'Lilita One', cursive;
+  font-size: 2.5rem;
+  color: #4B3A1D !important;
+}
+.btn-1{
+  color: #F8F3E9;
+  background-color: #958686;
+  border-radius: 25px;
+  font-family: 'Lilita One', cursive;
+}
+.nav-link {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+    color: #4B3A1D !important;
+    float:right;
+    }
+  
+                               /***************Adding Media Queries ********************************/  
+@media (max-width: 1000px) {
+  html,
+  body,
+  header,
+  .view{
+    height: 1000px;
+  }
+ 
+  
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 900px;
+  }
+  .nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+      color: #4B3A1D !important;
+      }
+      
+       }
+
+
+.top-nav-collapse {
+  background-color: #F5F5F5;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+  color: #F5F5F5;
+}
+
+@media (max-width: 700px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #F5F5F5 !important;
+    
+      
+  }
+  .nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+      color: #4B3A1D !important;
+      }
+      
+}
+
+/**************************************************************************************************************/
+ /*********************************** 2.work Page ******************************** */ 
+
+ 
+.btn2{
+  color: #F8F3E9;
+  background-color: #958686;
+font-weight: bolder;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+
+  background-color: #F8F2E7;
+}
+
+.card-title{
+
+    font-family: 'Lilita One', cursive;
+      color: #4B3A1D 
+    
+}
+
+/*********************************** 3.Contact Page ******************************** */
+
+
+.header{
+
+  font-family: 'Lilita One', cursive;
+    color:#958686; }
